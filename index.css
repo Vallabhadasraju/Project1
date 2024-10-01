@@ -1,0 +1,311 @@
+*{
+  padding: 1px;
+  margin: 2px;
+  box-sizing: border-box;
+  color: black;
+}
+
+body{
+  background-color: #F3E8EE;
+  height: 300vh;
+}
+
+
+
+
+.navi {
+    max-width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #0d94336d;
+    border-radius: 50px;
+    /* position: relative;
+    top: -0.5rem;
+    left: 0px;
+    right: 0px; */
+    backdrop-filter: blur(30px);
+    margin: 0px 2rem;
+    color: #460e6d; 
+   
+}
+.links a{
+  text-decoration: none;
+  color:#627ce3;
+  padding: 8px 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+}
+.links a:hover{
+  background-color: #525252;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+.links{
+  display: flex;
+  gap: 0.5rem;
+}
+
+img{
+  width: 33%;
+  height: 320px;
+  border-radius: 10px 10px 0 0;
+  text-align: end;
+  padding: 10px;
+}
+.link{
+  text-align: center;
+  
+}
+.link a:hover{
+  background-color: #525252;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+.link{
+  display: flex;
+  gap: 0.5rem;
+}
+body {
+	background-color:#ddd;
+}
+
+header {
+	background-image: url("https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg");
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+nav {
+	background-color: #333;
+	padding: 10px;
+  text-align: center;
+  height: 50PX;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color:black;
+	text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section{
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	width: 300px;
+}
+section .head{
+    text-decoration: underline;
+    color: #ddd;
+}
+.healthy-food-section {
+  background-color: #ddd;
+  text-align: center;
+}
+
+.healthy-food-section-img:hover {
+  max-width: 60%;  
+  transform: scale(1.01);
+}
+
+.healthy-food-section-hea {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+
+}
+
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.custom-button{
+  color: yellow;
+  border-radius: 20%;
+  background-color: #333;
+  padding: 5px;
+  margin: 10px;
+}
+iframe:hover{
+  padding: 1px;
+  border-radius: 9px;
+  text-align: center;
+  transform: scale(1);
+} 
+
+/* strips */
+.strip,.strip1{
+  background-color:#d7def8;
+  height: 8rem;
+  /* transform: translateY(900%); */
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.strip1{
+  background-color: #f0fbe0;
+}
+.poster img{
+  width: 110px;
+  height: 110px;
+  object-fit:cover;
+  
+  border-radius:1000%;
+}
+.content{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.content h2{
+  color: #1c1f26;
+}
+.content img{
+  width: 40px;
+  height: 40px;
+}
+
+/* main-cards */
+.main_card,.main_card1{
+  max-width: 100%;
+  margin: 3%;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5px;
+  background-color:#f7f7f7;
+  transition: transform 0.3s ease;
+}
+.main_card1{
+  background-color: #fbe8e7;
+}
+.main_card:hover,.main_card1:hover{
+  transform: scale(1.00999);
+}
+.main_card_img img{
+  max-width: 48%;
+  object-fit: cover;
+  border-radius: 5px;
+  
+}
+.main_card_img{
+  display: flex;
+  column-gap: 3rem;
+}
+.main_card_desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.desc_title{
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  row-gap: 1.5rem;
+}
+.desc_title h3{
+  font-size: 2rem;
+  font-family:Calibri;
+  font-weight: 900;
+  text-align: center;
+  
+}
+.desc_title p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4rem;
+}
+
+/* footer-cards */
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+  }
+.footer-h1{
+    color: red;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px;
+    
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    text-align: center;
+    color:#666;
+  }
+  
+  .card p {
+    color: #666;
+    text-align: center;
+  }
+
+  
+  .card button {
+    background-color: skyblue;
+    color:wheat;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 4px;
+    text-align: center;
+    
+  }
+  a{
+    background-color: #fff;
+  }
+  .card-container .card:hover{
+    transform: scale(1.09);
+    background-color: rgb(96, 209, 219);
+}
